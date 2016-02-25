@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+}
+header {
+	background-color: black;
+	border-bottom: 5px solid yellow;
+	overflow: hidden;
+}
+h1 {
+	color: yellow;
+	padding: 10px 0px 0px 20px; 
+}
+ul {
+	list-style-type: none;
+	float: right;
+}
+li {
+	float: left;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 0px 10px 20px 0px;
+}
+.big {
+	float: left;
+	color: white;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -.5px;
+	padding: 0px 10px 20px 0%;
+}
+.tag {
+	background-color: #cccccc;
+}
+#tag-text {
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 15px; 
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+}
+#taste {
+	color: gray;
+	text-decoration: line-through;
+}
+#are {
+	border-bottom: 3px solid yellow;
+}
+main {
+	background-image: url("images/coworking.jpg");
+	background-color: #e6e6e6;
+	background-size: cover;
+	overflow: hidden;
+}
+aside {
+	background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    margin: 20px 20px 20px 400px;
+    float: right; 
+}
+p, h3, button {
+	margin: 20px;
+}
+p + h3 {
+	margin-top: 0px;
+}
+button + p {
+	margin-top: 0px;
+}
+.wrapper {
+	padding: 20px 0px 20px 0px;
+}
+.action {
+	width: 33%;
+	float: left;
+	border-right: 1px solid #cccccc;
+}
+.primary {
+	background-color: yellow;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -.5px;
+}
+.secondary {
+	background-color: #cccccc;
+	border-radius: 5px;
+	margin: auto;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -.5px;
+}
